@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color1: #FBFF54;
+  --color2: #E852FC;
+  --color3: #F3B0FD;
+}

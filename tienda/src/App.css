@@ -1,0 +1,94 @@
+header {
+  width: 100%;
+  background-color: rgb(154, 244, 244);
+  display: flex;
+  align-items: center;
+}
+
+header .cont-logo {
+  height: 100%;
+  width: 30%;
+}
+
+header .logo {
+  width: 100%;
+  max-width: 450px;
+  min-width: 200px;
+  padding: 10px;
+  filter: drop-shadow(2px 2px 5px hsl(292, 95%, 90%))
+}
+
+header .cont-itemList {
+  height: 100%;
+  width: 60%;
+}
+
+header .cont-itemList ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  color: var(--color2);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  transform: translate(-20px, -30px);
+  text-shadow: .5px .5px 2px hsl(293, 97%, 85%);
+  cursor: pointer;
+}
+
+header .cont-carrito {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+header .cont-carrito-marcador {
+  position: relative;
+}
+
+header .carrito {
+  width: 100%;
+  max-width: 85px;
+  min-width: 40px;
+  filter: drop-shadow(.5px .5px 1px rgba(0, 0, 0, 0.413));
+  cursor: pointer;
+}
+
+header .marcador {
+  position: absolute;
+  text-align: center;
+  background-color: #FBFF54;
+  border-radius: 50%;
+  width: 22px;
+  bottom: 9px;
+  right: -3px;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid ;
+  font-weight: 600;
+  text-shadow: .1px .1px 1px black;
+}
+
+.cont-divisor {
+  position: relative;
+}
+
+.custom-shape-divider-top-1691342913 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1691342913 svg {
+  position: relative;
+  display: block;
+  width: calc(106% + 1.3px);
+  height: 69px;
+}
+
+.custom-shape-divider-top-1691342913 .shape-fill {
+  fill: #9AF4F4;
+}
